@@ -9,5 +9,5 @@ CREATE TABLE teachers (
     last_name VARCHAR(50) NOT NULL,
     first_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE,
-    departament VARCHAR(100),
+    departament VARCHAR(100)
 );

@@ -6,6 +6,6 @@ SELECT
 FROM students AS s
 JOIN grades AS gr
     ON s.student_id = gr.student_id
-WHERE average_grade > 85
 GROUP BY s.student_id, s.last_name, s.first_name
+HAVING AVG(gr.grade) > 85
 ORDER BY average_grade DESC;
