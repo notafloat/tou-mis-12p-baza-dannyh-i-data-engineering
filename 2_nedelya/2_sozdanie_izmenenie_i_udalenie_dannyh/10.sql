@@ -1,0 +1,1 @@
+DELETE FROM карточки WHERE дата_возврата < CURRENT_DATE;
